@@ -9,7 +9,7 @@
 
 [mitm] 
 
-hostname = api.ideation.love/
+hostname = api.ideation.love
 
 *******************************/
 
