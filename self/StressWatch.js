@@ -3,9 +3,9 @@
 *******************************
 [rewrite_local]
 
-^https?:\/\/api\.ideation\.love\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/GoToBoy/Quantumult-X/main/self/StressWatch.js
+^https?:\/\/api\.ideation\.love\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/GoToBoy/Quantumult-X/refs/heads/main/self/StressWatch.js
 
-^https?:\/\/api\.ideation\.love\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/GoToBoy/Quantumult-X/main/self/StressWatch.js
+^https?:\/\/api\.ideation\.love\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/GoToBoy/Quantumult-X/refs/heads/main/self/StressWatch.js
 
 [mitm] 
 
